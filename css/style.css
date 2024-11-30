@@ -1,229 +1,261 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 header {
-    background-image: url('../img/bgHeaderRectangle256.png'); 
-    background-size: cover; 
-    background-position: center; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-family: Arial, sans-serif;
-    font-size: 2rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+  background-image: url("../img/bgHeaderRectangle256.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  height: 550px;
 }
 
 .content {
-    text-align: center;
-    color: white;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-
 .logo {
-    max-width: 464px; 
-    margin-bottom: 20px; 
+  max-width: 464px;
+  margin-bottom: 20px;
 }
 
 .text {
-    font-size: 1.5rem; 
-    margin: 5px 0; 
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); 
+  font-size: 18px;
+  margin: 5px 0;
 }
 
 /* section services */
 .services {
-    padding: 40px 20px; 
-    text-align: center; 
-    background-color: #f9f9f9; 
-    font-family: Arial, sans-serif;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
 }
 
 .services-title {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 /* Estilo das imagens */
 .services-images {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
 .service-img {
-    max-width: 30%;
-    height: auto; 
-    border-radius: 8px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  max-width: 30%;
+  height: auto;
+  border-radius: 8px;
 }
 
 .services-text {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .service-desc {
-    font-size: 1rem;
-    color: #555;
-    margin: 10px 0;
-    line-height: 1.6;
+  font-size: 1rem;
+  color: #555;
+  margin: 10px 0;
+  line-height: 1.6;
 }
 
 /* Seção About Us */
 .aboutus {
-    padding: 40px 20px;
-    text-align: center;
-    background-image: url('background-image.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #fff; 
+  padding: 40px 20px;
+  text-align: center;
+  background-image: url("../img/bgtestimonials.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
 }
 
 /* Título da seção */
 .aboutus-title {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); 
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
 /* Conteúdo centralizado */
 .aboutus-content {
-    display: flex;
-    justify-content: center; 
-    gap: 20px; 
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
-
 .aboutus-block {
-    background-color: rgba(0, 0, 0, 0.6); 
-    padding: 20px;
-    border-radius: 8px;
-    max-width: 30%; 
-    color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 30%;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 /* Texto "Help Me" */
 .aboutus-help {
-    font-size: 1.5rem;
-    color: #fff;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
-    margin-top: 20px;
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  margin-top: 20px;
 }
-
 
 /* Estilo da seção Testimonials */
 .testimonials {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
 }
 
 .testimonials-title {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
 }
 
 .testimonials-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
 }
 
 .testimonial-img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 /* contact us */
 
 .contact-us {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: #eaeaea;
-    font-family: Arial, sans-serif;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #eaeaea;
+  font-family: Arial, sans-serif;
 }
 
 .contact-title {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
 }
 
 .contact-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .contact-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    background: #fff;
-    padding: 10px 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: fit-content;
 }
 
 .contact-icon {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .contact-text {
-    font-size: 1.2rem;
-    color: #333;
+  font-size: 1.2rem;
+  color: #333;
 }
 
 /* AQUI ESTÁ O ESTILO DO PRIMEIRO TÍTULO*/
 
-.text.simply{
-    border-radius: 30px;
-    border: 5px  rgba(0, 0, 0, 0.5);
-    background: rgba(0, 0, 0, 0.5);
-    height: 64px;
-    width: 374px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
-    align-items: stretch;
-    justify-content: space-around;
+.text.simply {
+  border-radius: 30px;
+  border: 5px rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
+  height: 64px;
+  width: 374px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: stretch;
+  justify-content: space-around;
 }
 
-.text.ipsum{
-    font-size: 140px;
+.text.ipsum {
+  font-size: 140px;
 }
 
 .text.help-me {
-    background: #ffff;
-    color: #48924F;
-    border-radius: 30px;
-    height: 64px;
-    width: 374px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-around;
+  background: #ffff;
+  color: #48924f;
+  border-radius: 40px;
+  height: 70px;
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.services-text {
+  display: flex;
+  justify-content: center;
+}
+
+/* mobile */
+
+@media screen and (max-width: 768px) {
+  .aboutus-block {
+    max-width: 85%;
+  }
+
+  .aboutus-content {
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 300px;
+  }
+
+  .text.ipsum {
+    font-size: 65px;
+  }
+
+  .service-img {
+    max-width: 100%;
+  }
+
+  .services-images {
+    flex-direction: column;
+  }
+
+  .aboutus-content {
+    align-items: center;
+  }
+
 }
